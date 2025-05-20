@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami - Creative Hub Kaltim</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f7f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-left: 40px;
+            display: inline-block;
+        }
+
+        nav {
+            float: right;
+            margin-right: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #00796b;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header & Navbar -->
+    <header>
+        <div class="logo">Borneo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html" class="active">Tentang Kami</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <div style="clear: both;"></div>
+    </header>
+
+    <!-- Konten -->
+    <main class="container">
+        <h2>Tentang Creative Hub Kalimantan Timur</h2>
+
+        <div class="gallery">
+            <img src="creative.jpg" alt="Banner Bimbingan Teknis Creative Hub">
+            <img src="cre.jpg" alt="Interior Lorong Temindung Creative Hub">
+            <img src="tiv.jpg" alt="Tampak Samping Gedung Creative Hub">
+        </div>
+
+        <p>
+            <strong>Creative Hub Kalimantan Timur</strong> adalah ruang kolaboratif untuk mendukung pertumbuhan
+            ekosistem ekonomi kreatif di Kaltim. Melalui pendekatan yang menggabungkan budaya lokal, teknologi, dan
+            kewirausahaan, tempat ini menjadi titik temu kreator muda, UMKM, dan komunitas kreatif.
+        </p>
+
+        <p>
+            Creative Hub menyediakan fasilitas seperti co-working space, studio kreatif, galeri pameran, serta ruang
+            pelatihan yang memungkinkan pengembangan ide-ide inovatif berbasis kearifan lokal.
+        </p>
+
+        <p>
+            Dalam era pembangunan Ibu Kota Negara (IKN) Nusantara, keberadaan Creative Hub sangat penting untuk
+            membangun identitas kreatif Kalimantan Timur, serta menciptakan ekosistem ekonomi baru yang mandiri dan
+            berkelanjutan.
+        </p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Explore Kalimantan. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
